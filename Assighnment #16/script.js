@@ -89,8 +89,8 @@ document.writeln("The largest number is " + largest + "<br>");
 let arr2 = [24, 53, 78, 91, 12];
 let smallest = arr2[0];     
 for (let i = 1; i < arr2.lenght; i++) {
-    if (arr[i] < largest) {
-        largest = arr[i];
+    if (arr[i] < smallest) {
+        smallest = arr[i];
     }
 }
 document.writeln("Array items: " + arr2 + "<br>");
@@ -99,4 +99,5 @@ document.writeln("The smallest number is " + smallest + "<br>");
 for (let i = 1; i <= 20; i++) {
     let result = i * 5;
     document.writeln(result + ",");
+
 }
