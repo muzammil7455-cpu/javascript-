@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assighnment # 21</title>
+</head>
+<body>
+    <head>
+    <title>Events Assignment</title>
+</head>
+<h3>1. Alert on Link Click</h3>
+<a href="#" onclick="showAlert()">Click Me</a>
+
+<h3>2. Mobile Images</h3>
+
+<img src="https://images.samsung.com/is/image/samsung/p6pim/pk/sm-s731bdbvpkd/gallery/pk-galaxy-s25-fe-sm-s731-sm-s731bdbvpkd-thumb-548713584" height="100px" width="100px" onclick="mobileAlert('Samsung')" />
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlwsFmnror5WLwkj8w7PTdAGfVEOKjLF9e1A&s" height="100px" width="100px"  onclick="mobileAlert('iPhone')" />
+<img src="https://www.oppo.com/content/dam/oppo/common/mkt/v2-2/reno14-series/list-page/reno14-f/448-600-pink.png" height="100px" width="100px"  onclick="mobileAlert('Oppo')" />
+
+<h3>3. Student Records</h3>
+
+<table border="1" cellpadding="5">
+    <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Action</th>
+    </tr>
+
+    <tr>
+        <td>Ali</td>
+        <td>10</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>Ahmed</td>
+        <td>9</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+    <tr>
+        <td>Mark</td>
+        <td>8</td>
+        <td><button onclick="deleteRow(this)">Delete</button></td>
+    </tr>
+</table>
+
+<h3>4. Image Mouseover</h3>
+
+<img src="https://img.freepik.com/free-photo/web-template-website-design-concept_53876-125608.jpg?semt=ais_hybrid&w=740&q=80"
+     onmouseover="changeImage(this)"
+     onmouseout="resetImage(this)" />
+
+     <h3>5. Counter</h3>
+
+<p id="counter">0</p>
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+
+
+
+
+
+
+    <script src="/script.js"></script>
+</body>
+</html>
